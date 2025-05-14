@@ -1,0 +1,65 @@
+You are building the frontend of a web app called SweetSpot – an artisan dessert marketplace. It connects small-batch bakers and home-based dessert creators to customers.
+
+Use JavaScript (ES6+) for scripting and Tailwind CSS for styling. Set up the project using React. Keep the code modular, clean, and maintainable.
+
+Design Goals:
+A soft, Pinterest-style UI with aesthetic visuals that are calming, inviting, and delightful — imagine muted pastels, rounded cards, subtle shadows, and airy layouts.
+
+Use Tailwind CSS to achieve a minimal, elegant, and soft look with responsive design.
+
+Fonts should be modern and clean (e.g., Poppins, Inter, or Quicksand from Google Fonts).
+
+UI should resemble a mood board or product catalog.
+
+Core Pages to Build:
+Home Page
+
+Hero section with a welcome message and imagery of desserts.
+
+Grid of featured desserts (product cards with image, name, short description, and rating).
+
+Dessert Catalog Page
+
+Filter bar for dietary type, occasion, and flavor.
+
+Pinterest-style masonry or grid layout for dessert cards.
+
+Hover animations for card details.
+
+Product Detail Page
+
+Large image with zoom hover effect.
+
+Description, ingredients, allergy info.
+
+Customization options (dropdowns, checkboxes).
+
+Add to cart button.
+
+Cart and Checkout Pages
+
+Show selected items, quantities, total price.
+
+Minimal, clean forms for delivery info and payment.
+
+Replit Setup Requirements:
+Set up React using create-react-app or Vite.
+
+Use React Router for navigation between pages.
+
+Use Tailwind CSS (installed and configured).
+
+Keep components in separate folders/files (e.g., components/, pages/, assets/).
+
+Use placeholder images (e.g., Unsplash or Pexels dessert photos).
+
+Use dummy JSON data for product listings initially.
+
+Bonus (Optional):
+Add a sticky header with a logo and nav links.
+
+Add a floating “Back to Top” button.
+
+Responsive behavior on mobile (e.g., collapsible nav).
+
+Be consistent with soft animations, subtle transitions, and a delightful pastel theme. Keep it intuitive and visually polished — like Pinterest meets a dessert boutique.

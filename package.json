@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development node server/index.js",
-    "build": "vite build && esbuild server/index.js --platform=node --packages=external --bundle --outdir=dist",
-    "start": "cross-env NODE_ENV=production node dist/index.js",
-    "db:push": "drizzle-kit push"
-  },
+  "dev": "cross-env NODE_ENV=development node server/index.js",
+  "build": "vite build && esbuild server/index.js --platform=node --packages=external --bundle --outdir=dist",
+  "start": "cross-env NODE_ENV=production node dist/index.js",
+  "db:push": "drizzle-kit push",
+  "test": "echo \"No tests specified\" && exit 0"
+},
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@jridgewell/trace-mapping": "^0.3.25",

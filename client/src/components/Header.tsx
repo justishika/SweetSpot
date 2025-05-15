@@ -49,7 +49,7 @@ export default function Header() {
             <Link href="#about" className="font-poppins font-medium text-neutral-900 hover:text-primary transition-colors">
               About
             </Link>
-            <Link href="#bakers" className="font-poppins font-medium text-neutral-900 hover:text-primary transition-colors">
+            <Link href="/bakers" className={`font-poppins font-medium hover:text-primary transition-colors ${location === '/bakers' ? 'text-primary' : 'text-neutral-900'}`}>
               Bakers
             </Link>
           </nav>
@@ -92,7 +92,7 @@ export default function Header() {
           <Link href="#about" className="block font-poppins font-medium text-neutral-900 hover:text-primary py-2">
             About
           </Link>
-          <Link href="#bakers" className="block font-poppins font-medium text-neutral-900 hover:text-primary py-2">
+          <Link href="/bakers" className={`block font-poppins font-medium py-2 hover:text-primary ${location === '/bakers' ? 'text-primary' : 'text-neutral-900'}`}>
             Bakers
           </Link>
         </div>

@@ -27,7 +27,7 @@ export default function Home() {
                 <Link href="/catalog" className="bg-primary hover:bg-primary-dark text-white font-poppins font-medium px-8 py-3 rounded-full transition-colors shadow-sm text-center">
                   Browse Desserts
                 </Link>
-                <Link href="#bakers" className="bg-white hover:bg-neutral-100 text-neutral-900 font-poppins font-medium px-8 py-3 rounded-full transition-colors shadow-sm border border-neutral-200 text-center">
+                <Link href="/bakers" className="bg-white hover:bg-neutral-100 text-neutral-900 font-poppins font-medium px-8 py-3 rounded-full transition-colors shadow-sm border border-neutral-200 text-center">
                   Meet Our Bakers
                 </Link>
               </div>
@@ -120,7 +120,7 @@ export default function Home() {
             <p className="text-lg text-neutral-600 mb-8 max-w-2xl mx-auto">
               Are you a talented baker? Join our marketplace and reach dessert lovers in your area. Turn your passion into profit.
             </p>
-            <Link href="#become-baker" className="inline-block bg-primary hover:bg-primary-dark text-white font-poppins font-medium px-8 py-3 rounded-full transition-colors shadow-sm">
+            <Link href="/bakers" className="inline-block bg-primary hover:bg-primary-dark text-white font-poppins font-medium px-8 py-3 rounded-full transition-colors shadow-sm">
               Become a Baker
             </Link>
           </div>

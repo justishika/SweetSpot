@@ -46,7 +46,7 @@ export default function Header() {
             <Link href="/catalog" className={`font-poppins font-medium hover:text-primary transition-colors ${location === '/catalog' ? 'text-primary' : 'text-neutral-900'}`}>
               Catalog
             </Link>
-            <Link href="#about" className="font-poppins font-medium text-neutral-900 hover:text-primary transition-colors">
+            <Link href="/about" className={`font-poppins font-medium hover:text-primary transition-colors ${location === '/about' ? 'text-primary' : 'text-neutral-900'}`}>
               About
             </Link>
             <Link href="/bakers" className={`font-poppins font-medium hover:text-primary transition-colors ${location === '/bakers' ? 'text-primary' : 'text-neutral-900'}`}>
@@ -89,7 +89,7 @@ export default function Header() {
           <Link href="/catalog" className="block font-poppins font-medium text-neutral-900 hover:text-primary py-2">
             Catalog
           </Link>
-          <Link href="#about" className="block font-poppins font-medium text-neutral-900 hover:text-primary py-2">
+          <Link href="/about" className={`block font-poppins font-medium py-2 hover:text-primary ${location === '/about' ? 'text-primary' : 'text-neutral-900'}`}>
             About
           </Link>
           <Link href="/bakers" className={`block font-poppins font-medium py-2 hover:text-primary ${location === '/bakers' ? 'text-primary' : 'text-neutral-900'}`}>

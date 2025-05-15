@@ -30,21 +30,11 @@
 - Testimonials slider
 - Footer with newsletter, socials, contact
 
-### 👩‍🍳 **Customer Dashboard**
-- Sidebar: Home, Orders, Subscriptions, Favorites
-- Realtime order tracking (live updates!)
-- Order history and easy reordering
-
 ### 🧾 **Vendor Dashboard**
 - Sidebar: Menu Editor, Orders, Insights
 - Menu editing: upload images, tags (e.g., vegan, gluten-free)
 - Order table with status filters (Pending, Preparing, Shipped)
 - Analytics widgets: Sales, Orders, Top Product
-
-### 📦 **Subscription Box Builder**
-- Pick delivery frequency (weekly/monthly)
-- Select dessert preferences + flavors
-- Live visual summary of selected items
 
 ### 🍩 **Product Page**
 - Image carousel/gallery

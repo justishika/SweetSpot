@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 20 14.3% 4.1%;
+    
+    --muted: 60 4.8% 95.9%;
+    --muted-foreground: 25 5.3% 44.7%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14.3% 4.1%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%;
+    
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    
+    --primary: 338 92% 84%;
+    --primary-light: 339 100% 91%;
+    --primary-dark: 338 65% 77%;
+    --primary-foreground: 210 20% 98%;
+    
+    --secondary: 142 47% 90%;
+    --secondary-light: 142 56% 95%;
+    --secondary-dark: 146 30% 84%;
+    --secondary-foreground: 24 9.8% 10%;
+    
+    --accent: 282 37% 83%;
+    --accent-light: 276 67% 92%;
+    --accent-dark: 280 40% 74%;
+    --accent-foreground: 24 9.8% 10%;
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%;
+    
+    --ring: 338 92% 84%;
+    
+    --radius: 0.5rem;
+  }
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  @apply text-neutral-900 bg-[#FAFAFA];
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+/* Custom styles */
+.card-hover {
+  @apply transition-all duration-300;
+}
+
+.card-hover:hover {
+  @apply transform -translate-y-1 shadow-lg;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.back-to-top {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+}
+
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 10px;
+  grid-gap: 20px;
+}
